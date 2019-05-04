@@ -1,6 +1,7 @@
 # vue-serach-ui
 this is vue-server-ui components
-# 父组件调用 
+# 父组件调用
+>注意：其中css样式用的stylus语法 需要npm install stylus stylus-loader --save-dev
 ## js：```import Serach from '@/components/serach/serach```
 ## html： ```<Serach :value.sync="value" :result="result"></Serach>```
 ---
